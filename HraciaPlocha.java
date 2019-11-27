@@ -6,7 +6,6 @@
  * @version (a version number or a date)
  */
 public class HraciaPlocha {
-    private Stvorec[] policka;
     private Obdlznik pozadie;
     private Obdlznik pozadie2;
     private int rozmer;
@@ -42,23 +41,6 @@ public class HraciaPlocha {
             ciara.zobraz();        
         }
     }
-
-    /*public void zobrazHraciuPlochu() {
-        this.pozadie.zobraz();
-        for (Stvorec stvorec: this.policka) {
-            stvorec.zobraz();  
-      
-       }
-      }
-     
-
-    public void skryHraciuPlochu() {
-        this.pozadie.skry();
-        for (Stvorec stvorec: this.policka) {
-            stvorec.skry();  
-        }
-    }*/
-
     public int getRozmer() {
         return this.rozmer; 
     }
