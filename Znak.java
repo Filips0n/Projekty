@@ -41,7 +41,6 @@ public class Znak {
         x -= 62;
         y -= 52;
         System.out.println();
-        System.out.println();
         vytvorZnak();
         if (x < 0) {
             x = 0;
@@ -55,16 +54,11 @@ public class Znak {
         if (y > ( this.hraciaPlocha.getRozmer() -1 ) * 80) {
             y = ( this.hraciaPlocha.getRozmer() -1) * 80;
         }
-        System.out.println(x);
-        System.out.println(y);
         int posX = x / 80;
         int posY = y / 80;
-        System.out.println();
-        System.out.println(posX);
-        System.out.println(posY);
         this.aktualnePolicko = "" + posX + posY;
-        
-        if (this.hra.zakazKliknutNaRovnakePolickoDvakrat()){
+        System.out.println(this.aktualnePolicko);
+        if (this.hra.zakazKliknutNaRovnakePolickoDvakrat() == true){
             System.out.println("zabrate");
         } else {
             System.out.println("volne");

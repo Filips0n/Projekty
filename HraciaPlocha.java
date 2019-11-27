@@ -41,6 +41,7 @@ public class HraciaPlocha {
             ciara.zobraz();        
         }
     }
+
     public int getRozmer() {
         return this.rozmer; 
     }

@@ -6,5 +6,4 @@ comment1.target=HraciaPlocha(int)
 comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ HraciaPlocha\r\n
 comment2.params=
 comment2.target=int\ getRozmer()
-comment2.text=public\ void\ zobrazHraciuPlochu()\ {\r\n\ \ \ \ \ \ \ \ this.pozadie.zobraz();\r\n\ \ \ \ \ \ \ \ for\ (Stvorec\ stvorec\:\ this.policka)\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ stvorec.zobraz();\ \ \r\n\ \ \ \ \ \ \r\n\ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ }\r\n\ \ \ \ \ \r\n\r\n\ \ \ \ public\ void\ skryHraciuPlochu()\ {\r\n\ \ \ \ \ \ \ \ this.pozadie.skry();\r\n\ \ \ \ \ \ \ \ for\ (Stvorec\ stvorec\:\ this.policka)\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ stvorec.skry();\ \ \r\n\ \ \ \ \ \ \ \ }\r\n}
 numComments=3

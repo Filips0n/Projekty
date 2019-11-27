@@ -13,7 +13,7 @@ public class Hra {
      * Constructor for objects of class Hra
      */
     public Hra() {     
-        this.zaznamenavaniePolicok = new ArrayList<String>();     
+        this.zaznamenavaniePolicok = new ArrayList<String>();
     }
 
     public boolean zakazKliknutNaRovnakePolickoDvakrat() {          
